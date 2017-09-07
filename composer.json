@@ -1,0 +1,23 @@
+{
+    "name": "mstrychalski/ms-layout-variables",
+    "description": "MsViewElements is simple ZF3 module for managing layout variables from module configs",
+    "type": "library",
+    "keywords": [
+        "zf3"
+    ],
+    "homepage": "https://github.com/mstrychalski/MsLayoutVariables",
+    "authors": [
+        {
+            "name": "Michał Strychalski",
+            "email": "mstrychalski92@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
