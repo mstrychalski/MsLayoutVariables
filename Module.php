@@ -26,15 +26,4 @@ class Module
 
         }, 100);
     }
-
-    /**
-     * Normalizes a factory service name for use with zend-servicemanager v2.
-     *
-     * @param string $name
-     * @return string
-     */
-    private function normalizeNameForV2($name)
-    {
-        return strtolower(strtr($name, ['-' => '', '_' => '', ' ' => '', '\\' => '', '/' => '']));
-    }
 }
