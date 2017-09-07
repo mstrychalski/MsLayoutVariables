@@ -19,7 +19,7 @@ Layout variables can be used in various ways, it can be limited for Action only,
 
 ```php
 'layout_variables' => [
-        default => [
+        'default' => [
             'showMenu' => false,
             'pageTitle' => 'Awesome title',
             'someArray' => [0,1,2,3]
