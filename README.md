@@ -8,7 +8,7 @@ MsLayoutVariables is simple Module, that allows you to set layout variables in m
 ## Installation using Composer
 
 ```bash
-$ composer install mstrychalski/ms-layout-variables
+$ composer require mstrychalski/ms-layout-variables
 ```
 
 ## Usage
