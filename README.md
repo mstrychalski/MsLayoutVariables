@@ -81,4 +81,12 @@ Layout variables can be used in various ways, it can be limited for Action only,
     ],
 ```
 
+### And now you can use it in your layout:
+
+```html
+<?php if($this->menu !== false) ?>
+    <div class="awesomeMenu"></div>
+<?php endif; ?>
+```
+
 This is all, happy haking
